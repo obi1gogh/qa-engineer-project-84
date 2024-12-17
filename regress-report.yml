@@ -1,6 +1,6 @@
 ---
 test-cases:
-  - summary: |
+- summary: |
     Смена языка с английского на русский
   status: fail
 
