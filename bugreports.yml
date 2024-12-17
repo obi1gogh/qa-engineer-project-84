@@ -1,0 +1,66 @@
+---
+- summary: |
+    Некорректная верстка кол-ва товаров в корзине
+  environment: |
+    Opera GX   82.0.4227.50 (Официальная сборка) (64 бит)
+    Windows 7
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
+    2. Добавить несколько разных товаров в корзину
+    3. Открыть корзину, нажав "Cart"
+  expected-result: |
+    Кол-во товаров отцентрировано
+  actual-result: |
+    Расположение кол-ва товаров на строке зависит от длины наименования
+
+- summary: |
+    Не работают фильтры товаров
+  environment: |
+    Opera GX   82.0.4227.50 (Официальная сборка) (64 бит)
+    Windows 7
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
+    2. Выбрать категорию товаров "groceries"
+  expected-result: |
+    Производители товаров сменились для категории "groceries"
+  actual-result: |
+    Производители меняются только при пролистывании страниц с товарами
+
+- summary: |
+    Расчет стоимости товаров в корзине работает некорректно
+  environment: |
+    Opera GX   82.0.4227.50 (Официальная сборка) (64 бит)
+    Windows 7
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
+    2. Добавить несколько товаров в корзину
+    3. Перейти в корзину
+  expected-result: |
+    Значение "Total" работает верно, все товары посчитаны правильно
+  actual-result: |
+    Вывод конечной суммы товаров ошибается на +0,01
+
+- summary: |
+    404 Firefox
+  environment: |
+    Firefox   133 (Официальная сборка) (64 бит)
+    Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
+  expected-result: |
+    Открылась главная страница
+  actual-result: |
+    404 page not found
+
+- summary: |
+    Некорректная работа кнопок "Previous" и "Next"
+  environment: |
+    Opera GX   82.0.4227.50 (Официальная сборка) (64 бит)
+    Windows 7
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
+    2. В произвольном порядке листать страницы с товарами, нажимая "Previous" и "Next"
+  expected-result: |
+    Товары отображаются в правильном порядке
+  actual-result: |
+    Отображение товаров ломается, посреди списка может вылезти надпись "Nothing found!"
