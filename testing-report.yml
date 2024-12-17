@@ -1,0 +1,20 @@
+---
+- summary: |
+    Смена языка с английского на русский
+  status: fail
+
+- summary: |
+    Адаптивность к мобильным устройствам
+  status: fail
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Тестирование ценового диапазона
+  status: fail
+
+- summary: |
+    Кроссбраузерность(Firefox)
+  status: fail
