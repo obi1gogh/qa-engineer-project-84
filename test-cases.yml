@@ -6,7 +6,7 @@
   prerequisites: |
     Включен английский язык
   test-data: |
-    Логин = Логин = obi1gogh Пароль = badpass
+    Логин = obi1gogh Пароль = badpass
   steps:
     - Меняем язык с английского на русский
   expected-result: |
@@ -19,7 +19,7 @@
   prerequisites: |
     Открыта главная страница сайта
   test-data: |
-    Логин = Логин = obi1gogh Пароль = badpass
+    Логин = obi1gogh Пароль = badpass
   steps:
     - Открываем DevTools
     - Меняем десктопные значения расширения на моб устройства
@@ -33,7 +33,7 @@
   prerequisites: |
     Открыт каталог с товарами
   test-data: |
-    Логин = Логин = obi1gogh Пароль = badpass
+    Логин = obi1gogh Пароль = badpass
   steps:
     - Нажимаем кнопку "Add to cart"
     - Переходим в корзину
@@ -47,7 +47,7 @@
   prerequisites: |
     Открыта главная страница сайта
   test-data: |
-    Логин = Логин = obi1gogh Пароль = badpass
+    Логин = obi1gogh Пароль = badpass
   steps:
     - Вводим произвольные значения
     - Проверяем список выведенных товаров
@@ -61,7 +61,7 @@
   prerequisites: |
     Открыт сайт browserstack.com
   test-data: |
-    Логин = Логин = obi1gogh Пароль = badpass
+    Логин = obi1gogh Пароль = badpass
   steps:
     - Вводим в поле "https://hexlet-products-store.vercel.app"
     - Выбираем браузер Firefox
