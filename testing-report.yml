@@ -1,20 +1,60 @@
 ---
 - summary: |
-    Смена языка с английского на русский
+    Поиск товара по ключевому слову
   status: fail
 
 - summary: |
-    Адаптивность к мобильным устройствам
+    Поиск товара по категории
   status: fail
 
 - summary: |
-    Добавление товара в корзину
+    Фильтрация товаров
+  status: fail
+
+- summary: |
+    Просмотр товаров
   status: pass
 
 - summary: |
-    Тестирование ценового диапазона
+    Просмотр подробной информации о товарах
+  status: pass
+
+- summary: |
+    Добавление товаров в корзину
+  status: pass
+
+- summary: |
+    Просмотр содержимого корзины
+  status: pass
+
+- summary: |
+    Оптимизация скорости работы сайта
   status: fail
 
 - summary: |
-    Кроссбраузерность(Firefox)
+    Безопасность
+  status: pass
+
+- summary: |
+    Мобильная версия
+  status: pass
+
+- summary: |
+    Кроссбраузерность
+  status: fail
+
+- summary: |
+    Быстрое перемещение в корзину
+  status: fail
+
+- summary: |
+    Краткое содержимое корзины
+  status: fail
+
+- summary: |
+    Нумерация страниц с товарами
+  status: fail
+
+- summary: |
+    Мгновенное пролистывание
   status: fail
