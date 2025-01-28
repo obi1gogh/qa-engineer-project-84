@@ -13,7 +13,7 @@
 
 - summary: |
     Просмотр товаров
-  status: pass
+  status: fail
 
 - summary: |
     Просмотр подробной информации о товарах
