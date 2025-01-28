@@ -28,22 +28,6 @@
   status: pass
 
 - summary: |
-    Оптимизация скорости работы сайта
-  status: fail
-
-- summary: |
-    Безопасность
-  status: pass
-
-- summary: |
-    Мобильная версия
-  status: pass
-
-- summary: |
-    Кроссбраузерность
-  status: fail
-
-- summary: |
     Быстрое перемещение в корзину
   status: fail
 
