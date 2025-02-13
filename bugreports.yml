@@ -76,3 +76,19 @@
   actual-result: |
     Отображаемая сумма заказа в корзине имеет погрешность
     Баг изображен на скриншоте screenshots/screen4.png
+
+- summary: |
+    Отсутствие оптимизации по загрузке главной страницы сайта
+  environment: |
+    Opera GX   82.0.4227.50 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app
+    2. Открываем DevTools
+    3. Далее в DevTools открываем вкладку Network
+    4. Обновляем страницу
+  expected-result: |
+    Главная страница загрузилась за менее чем 3 сек
+  actual-result: |
+    Значение "Finish" в DevTools составляет 5.83 сек, что не удовлетворяет требованиям
+    Баг изображен на скриншоте screenshots/screen5.png
