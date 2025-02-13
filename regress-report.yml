@@ -24,6 +24,9 @@ test-cases:
   - summary: |
       Подсчет суммы заказа в корзине
     status: 
+  - summary: |
+      Скорость загрузки главной страницы
+    status:
 
 bugreports:
   - summary: |
