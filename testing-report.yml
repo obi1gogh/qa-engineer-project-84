@@ -24,21 +24,9 @@
   status: pass
 
 - summary: |
-    Просмотр содержимого корзины
-  status: pass
-
-- summary: |
-    Быстрое перемещение в корзину
-  status: fail
-
-- summary: |
-    Краткое содержимое корзины
-  status: fail
-
-- summary: |
     Нумерация страниц с товарами
   status: fail
 
 - summary: |
-    Мгновенное пролистывание
+    Подсчет суммы заказа в корзине
   status: fail
